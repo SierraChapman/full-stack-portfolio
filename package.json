@@ -1,0 +1,20 @@
+{
+  "name": "full-stack-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SierraChapman/full-stack-portfolio.git"
+  },
+  "author": "Sierra Chapman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SierraChapman/full-stack-portfolio/issues"
+  },
+  "homepage": "https://github.com/SierraChapman/full-stack-portfolio#readme"
+}
