@@ -10,10 +10,19 @@
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-    <h1>Sierra Chapman</h1>
-    <a href="/">About Me</a>
-    <a href="/projects">Featured Projects</a>
-    {{{ body }}}
+
+    <nav class="navbar navbar-expand-sm fixed-top">
+        <h1 class="navbar-text">Sierra Chapman</h1>
+        <div class="navbar-nav ml-auto">
+            <a class="nav-link btn m-2" href="/">About Me</a>
+            <a class="nav-link btn m-2 button-bright" href="/projects">Featured Projects</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        {{{ body }}}
+    </main>
+
 
     {{!-- Javascript needed for Bootstrap --}}
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
