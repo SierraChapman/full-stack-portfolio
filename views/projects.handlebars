@@ -2,17 +2,19 @@
 
 {{#each project}}
     <h3>{{title}}</h3>
-    <img src="/assets/img/{{repo}}.png" alt="screenshot of {{title}}" width="800">
+    <img class="img-fluid" src="/assets/img/{{repo}}.png" alt="screenshot of {{title}}" width="1000">
     <p>{{description}}</p>
 
-    <a href="https://github.com/SierraChapman/{{repo}}">GitHub Repo</a> 
-    {{#if url}}<a href="{{url}}">Deployed Application</a>{{/if}}
+    <a class="btn button-dark m-2 left-align" href="https://github.com/SierraChapman/{{repo}}">GitHub Repo</a> 
+    {{#if url}}<a class="btn button-bright m-2" href="{{url}}">Deployed Application</a>{{/if}}
+
 
     <h4>Skills/Technologies Used</h4>
-
+<div style="column-count: 2;">
     <ul>
         {{#each tags}}
             <li>{{this}}</li>
         {{/each}}
     </ul>
+</div>
 {{/each}}
