@@ -1,0 +1,211 @@
+[
+    {
+        "title": "Full Stack Portfolio",
+        "description": "This is my portfolio website (which you are currently on). It is a full stack application that runs an Express.js server and uses Express-Handlebars to generate HTML.",
+        "repo": "full-stack-portfolio",
+        "url": "https://full-stack-portfolio-sc.herokuapp.com/",
+        "tags": [
+            "Frontend",
+            "Backend",
+            "Full Stack",
+            "Web Design",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Git",
+            "GitHub",
+            "Heroku",
+            "Bootstrap",
+            "Materialize.css",
+            "jQuery",
+            "Node.js",
+            "Express.js",
+            "Express-Handlebars"
+        ]
+    },
+    {
+        "title": "HIKR",
+        "description": "This is a full stack application for finding and logging hikes. Users are able to create an account, search for hikes by location, and write notes about their trip.",
+        "repo": "hikr",
+        "url": "https://hikr-journal.herokuapp.com/",
+        "tags": [
+            "Backend",
+            "Teamwork",
+            "JavaScript",
+            "Git",
+            "GitHub",
+            "Heroku",
+            "MySQL",
+            "JawsDB",
+            "Node.js",
+            "Axios",
+            "Bcryptjs",
+            "Express.js",
+            "Express-Handlebars",
+            "Express-Session",
+            "Sequelize",
+            "Public API's"
+        ]
+    },
+    {
+        "title": "L.I.F.E.",
+        "description": "Living Inside For Ever (L.I.F.E.) is intended to be a one stop shop for finding activities to do while following stay-at-home orders. It currently includes movies, video games, and recipes.",
+        "repo": "life",
+        "url": "https://sierrachapman.github.io/life",
+        "tags": [
+            "Frontend",
+            "Teamwork",
+            "HTML",
+            "JavaScript",
+            "Git",
+            "GitHub",
+            "Materialize.css",
+            "jQuery",
+            "Axios",
+            "Public API's"
+        ]
+    },
+    {
+        "title": "Reading List",
+        "description": "This full-stack reading list application uses Express.js to program the server, Express-Handlebars to generate HTML pages, and MySQL to store data.",
+        "repo": "reading-list",
+        "url": "https://reading-list-sc.herokuapp.com/",
+        "tags": [
+            "Frontend",
+            "Backend",
+            "Full Stack",
+            "Web Design",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "SQL",
+            "Git",
+            "GitHub",
+            "Heroku",
+            "MySQL",
+            "JawsDB",
+            "jQuery",
+            "Node.js",
+            "Express.js",
+            "Express-Handlebars"
+        ]
+    },
+    {
+        "title": "Code Quiz",
+        "description": "This project implements a timed multiple-choice quiz game. The score depends on the time remaining at the end and the number of incorrect answers. A high score list is stored locally on the browser.",
+        "repo": "code-quiz",
+        "url": "https://sierrachapman.github.io/code-quiz/",
+        "tags": [
+            "Frontend",
+            "Teamwork",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Git",
+            "GitHub"
+        ]
+    },
+    {
+        "title": "Weather Dashboard",
+        "description": "This weather dashboard displays current and forecasted weather from the OpenWeather API. The user can search for cities or select them from a list of recently viewed cities.",
+        "repo": "weather-dashboard",
+        "url": "https://sierrachapman.github.io/weather-dashboard/",
+        "tags": [
+            "Frontend",
+            "Teamwork",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Git",
+            "GitHub",
+            "Bootstrap",
+            "jQuery",
+            "Public API's"
+        ]
+    },
+    {
+        "title": "Updated Portfolio",
+        "description": "",
+        "repo": "",
+        "url": null,
+        "tags": []
+    },
+    {
+        "title": "Note Taker",
+        "description": "",
+        "repo": "",
+        "url": null,
+        "tags": []
+    },
+    {
+        "title": "Responsive Portfolio",
+        "description": "",
+        "repo": "",
+        "url": null,
+        "tags": []
+    },
+    {
+        "title": "Work Day Scheduler",
+        "description": "",
+        "repo": "",
+        "url": null,
+        "tags": []
+    },
+    {
+        "title": "Password Generator",
+        "description": "",
+        "repo": "",
+        "url": null,
+        "tags": []
+    },
+    {
+        "title": "Team Profile Generator",
+        "description": "",
+        "repo": "",
+        "url": null,
+        "tags": []
+    },
+    {
+        "title": "Employee Management System",
+        "description": "",
+        "repo": "",
+        "url": null,
+        "tags": []
+    },
+    {
+        "title": "README Generator",
+        "description": "",
+        "repo": "",
+        "url": null,
+        "tags": [
+            "Frontend",
+            "Backend",
+            "Full Stack",
+            "Web Design",
+            "Teamwork",
+            "Public API's",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "SQL",
+            "Git",
+            "GitHub",
+            "Heroku",
+            "MySQL",
+            "JawsDB",
+            "MongoDB",
+            "Bootstrap",
+            "Materialize.css",
+            "Pure.css",
+            "jQuery",
+            "Node.js",
+            "Axios",
+            "Bcryptjs",
+            "Express.js",
+            "Express-Handlebars",
+            "Express-Session",
+            "Inquirer.js",
+            "Sequelize"
+        ]
+    }
+]
