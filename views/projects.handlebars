@@ -6,15 +6,15 @@
     <p>{{description}}</p>
 
     <a class="btn button-dark m-2 left-align" href="https://github.com/SierraChapman/{{repo}}">GitHub Repo</a> 
-    {{#if url}}<a class="btn button-bright m-2" href="{{url}}">Deployed Application</a>{{/if}}
+    {{#if url}}<a class="btn button-bright m-2 left-align" href="{{url}}">Deployed Application</a>{{/if}}
 
 
     <h4>Skills/Technologies Used</h4>
-<div style="column-count: 2;">
-    <ul>
-        {{#each tags}}
-            <li>{{this}}</li>
-        {{/each}}
-    </ul>
-</div>
+    <div class="technologies">
+        <ul>
+            {{#each tags}}
+                <li>{{this}}</li>
+            {{/each}}
+        </ul>
+    </div>
 {{/each}}

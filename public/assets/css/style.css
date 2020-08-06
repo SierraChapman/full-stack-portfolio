@@ -54,6 +54,11 @@ li {
 
 .left-align {
     margin-left: 0px !important;
+    margin-right: 16px !important;
+}
+
+div.technologies {
+    column-count: 2;
 }
 
 /* Navbar */
@@ -116,5 +121,9 @@ img {
     nav {
         position: relative !important;
         margin-bottom: -100px;
+    }
+
+    div.technologies {
+        column-count: 1;
     }
 }
