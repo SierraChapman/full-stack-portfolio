@@ -1,5 +1,6 @@
 // import dependencies 
 const express = require("express");
+const project = require("../models/project.js");
 
 // create router
 const router = express.Router();
@@ -10,7 +11,7 @@ router.get("/", (req, res) => {
 })
 
 router.get("/projects", (req, res) => {
-  res.render("projects", {});
+  res.render("projects", {project: project.getFeatured()});
 })
 
 // export router

@@ -1,1 +1,18 @@
-<h2>Featured Projects!</h2>
+<h2>Featured Projects</h2>
+
+{{#each project}}
+    <h3>{{title}}</h3>
+    <img src="/assets/img/{{repo}}.png" alt="screenshot of {{title}}" width="800">
+    <p>{{description}}</p>
+
+    <a href="https://github.com/SierraChapman/{{repo}}">GitHub Repo</a> 
+    {{#if url}}<a href="{{url}}">Deployed Application</a>{{/if}}
+
+    <h4>Skills/Technologies Used</h4>
+
+    <ul>
+        {{#each tags}}
+            <li>{{this}}</li>
+        {{/each}}
+    </ul>
+{{/each}}
